@@ -27,6 +27,6 @@ Analyse data and create report from postgresql database using python
 7. Run Vagrant by entering: vagrant up
 8. Log into Vagrant VM by entering: vagrant ssh
 9. Move to Log_analysis directory by entering: cd /vagrant
-10. To load the data, cd into the vagrant directory and use the command psql -d news -f newsdata.sql
+10. To load the data --download newsdata.zip file and cd into the vagrant directory and use the command psql -d news -f newsdata.sql
 11. open another terminal cd to log analysis directory 
 12. vagnat up >> vagrant ssh>> cd /vagrant >> run news.py file
